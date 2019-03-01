@@ -1,0 +1,210 @@
+html {
+  font-family: sans-serif;
+  background-color: grey;
+}
+
+html, h1 {
+  margin-left: 44%;
+}
+
+/* Reset */
+html, body, div, article, p, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 20px 150px 0;
+  /*background: pink;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* verander de class name */
+/*plaatjes1*/
+.plaatjes1 {
+  width: 250px;
+  float: left;
+  margin: 1em;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  grid-column: 1/2;
+}
+
+.plaatjes1 article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 250px;
+  font-size: .7em;
+  padding: 1em;
+  margin-top: 0;
+}
+
+.plaatjes1:hover article {
+  margin-top: -255px;
+  cursor: pointer;
+  transition: margin-top .8s;
+}
+
+/*plaatjes2*/
+.plaatjes2 {
+  width: 250px;
+  float: left;
+  margin: 1em;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  grid-column: 2/3;
+}
+
+.plaatjes2 article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 250px;
+  font-size: .7em;
+  padding: 1em;
+  margin-top: 0;
+}
+
+.plaatjes2:hover article {
+  margin-top: -255px;
+  cursor: pointer;
+  transition: margin-top .8s;
+}
+
+/*plaatjes3*/
+.plaatjes3 {
+  width: 250px;
+  float: left;
+  margin: 1em;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  grid-column: 3/4;
+}
+
+.plaatjes3 article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 250px;
+  font-size: .7em;
+  padding: 1em;
+  margin-top: 0;
+}
+
+.plaatjes3:hover article {
+  margin-top: -255px;
+  cursor: pointer;
+  transition: margin-top .8s;
+}
+
+/*plaatjes4*/
+.plaatjes4 {
+  width: 250px;
+  float: left;
+  margin: 1em;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  grid-column: 1/2;
+}
+
+.plaatjes4 article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 250px;
+  font-size: .7em;
+  padding: 1em;
+  margin-top: 0;
+}
+
+.plaatjes4:hover article {
+  margin-top: -255px;
+  cursor: pointer;
+  transition: margin-top .8s;
+}
+
+/*plaatjes5*/
+.plaatjes5 {
+  width: 250px;
+  float: left;
+  margin: 1em;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  grid-column: 2/3;
+}
+
+.plaatjes5 article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 250px;
+  font-size: .7em;
+  padding: 1em;
+  margin-top: 0;
+}
+
+.plaatjes5:hover article {
+  margin-top: -255px;
+  cursor: pointer;
+  transition: margin-top .8s;
+}
+
+/*plaatjes6*/
+.plaatjes6 {
+  width: 250px;
+  float: left;
+  margin: 1em;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  grid-column: 3/4;
+}
+
+.plaatjes6 article {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 250px;
+  font-size: .7em;
+  padding: 1em;
+  margin-top: 0;
+  /*animation: naar-beneden 2s forwards;*/
+}
+
+.plaatjes6:hover article {
+  margin-top: -255px;
+  cursor: pointer;
+  transition: margin-top .8s;
+}
+
+/*@-webkit-keyframes naar-beneden {
+  10% {margin-bottom:  -255px;}
+  100% {margin-top: 0px;}
+}
+
+@-webkit-keyframes naar-boven {
+  10% {margin-top : 0px;}
+  100% {bottom : -308px;}
+  }
+}*/
+.cover article h3, .cover article h4, .cover article p {
+  padding: .3em;
+}
+
+#footer {
+  margin-left: 44%;
+}
+
+@media(max-width: 480px) {
+  body {
+    display: none;
+  }
+  .wrapper{
+    
+  }
+  #footer{
+
+  }
+}
